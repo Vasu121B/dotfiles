@@ -124,7 +124,7 @@ PS1+='\[$CYAN\]$ '
 #PS1='\[\e[41m\u\]\[\e[0m at \]\[\e[44m\h\]\[\e[0m in \]\[\e[1;34m\w\] \[\e[0;31m\]\$ \[\e[0m\]'
 
 
-colorscript random
+#colorscript random
 
 shopt -s promptvars
 PS1='$(printf "%$((COLUMNS-1))s\r")'$PS1
